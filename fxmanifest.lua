@@ -2,9 +2,9 @@ fx_version "cerulean"
 games {"gta5", "rdr3"}
 rdr3_warning "I acknowledge that this is a prerelease build of RedM, and I am aware my resources *will* become incompatible once RedM ships."
 
-name "PoodleChat"
+name "Sonic PoodleChat"
 description "Chat resource used on Poodle's Palace FiveM and RedM servers"
-author "kibukj"
+author "kibukj & cookie"
 repository "https://github.com/kibook/poodlechat"
 
 dependency "discord_rest" -- https://github.com/kibook/discord_rest
