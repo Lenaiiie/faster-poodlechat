@@ -1,4 +1,6 @@
-# PoodleChat
+# PoodleChat (No emojis suggestions, faster)
+
+![Forked from PoodleChat by Kibook](https://github.com/kibook/poodlechat)
 
 ![PoodleChat screenshot](screenshot.png)
 
