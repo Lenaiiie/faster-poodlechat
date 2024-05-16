@@ -2,6 +2,8 @@
 
 [Forked from PoodleChat by Kibook](https://github.com/kibook/poodlechat)
 
+Only client/client.lua was edited
+
 
 
 
