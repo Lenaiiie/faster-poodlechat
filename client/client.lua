@@ -679,13 +679,6 @@ function LoadSavedSettings()
 	end
 end
 
-function AddEmojiSuggestions()
-	for i = 1, #Emoji do
-		for k = 1, #Emoji[i][1] do
-			TriggerEvent('chat:addSuggestion', Emoji[i][1][k], Emoji[i][2])
-		end
-	end
-end
 
 CreateThread(function()
 	TriggerServerEvent('poodlechat:getPermissions')
@@ -747,8 +740,7 @@ CreateThread(function()
 		{name = "message", help = "The message to send"}
 	})
 
-	-- Emoji suggestions
-	AddEmojiSuggestions()
+
 
 	SetTextChatEnabled(false)
 	SetNuiFocus(false)
